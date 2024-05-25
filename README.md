@@ -21,3 +21,8 @@ URL: https://github.com/mpicatto
 DNI: 19115140
 email: imparable2030@gmail.com
 URL: https://github.com/Valtecnology
+
+### Lamas, Liliana Elizabet 
+DNI: 16790184
+email: lililamase@gmail.com 
+URL: https://github.com/llamas22
