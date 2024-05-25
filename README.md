@@ -16,3 +16,8 @@ URL: https://github.com/danimore05
 DNI: 27869809
 email: mauropicatto@gmail.com
 URL: https://github.com/mpicatto
+
+### Ahumada, Valeria
+DNI: 19115140
+email: imparable2030@gmail.com
+URL: https://github.com/Valtecnology
