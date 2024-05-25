@@ -11,3 +11,8 @@ URL:https://github.com/nidiadellarossa
 DNI: 32108077
 email: morelatod.86@gmail.com
 URL: https://github.com/danimore05
+
+### Picatto, Mauro
+DNI: 27869809
+email: mauropicatto@gmail.com
+URL: https://github.com/mpicatto
