@@ -1,4 +1,4 @@
-# El proyecto se llama grupo_trabajo_ispc
+# El proyecto se llama Tienda_deportiva
 Una dewscripcion basica del proyecto
 
 ## Los colaboradores son:
