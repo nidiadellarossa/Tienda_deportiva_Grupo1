@@ -2,6 +2,9 @@
 Una dewscripcion basica del proyecto
 
 ## Los colaboradores son:
-### Pepe
-### Sonia
-### Maria
+### Dellarossa, Nidia 
+DNI: 32579909
+email: nidiadellarossa@gmail.com
+URL:https://github.com/nidiadellarossa
+
+### 
