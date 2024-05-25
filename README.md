@@ -1,5 +1,5 @@
 # El proyecto se llama Tienda_deportiva
-Una dewscripcion basica del proyecto
+Una descripción básica del proyecto
 
 ## Los colaboradores son:
 ### Dellarossa, Nidia 
