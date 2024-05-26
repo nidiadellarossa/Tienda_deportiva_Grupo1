@@ -1,5 +1,5 @@
 # El proyecto se llama Tienda_deportiva
-Una descripción básica del proyecto
+Se propone realizar una aplicación mediante un software que se vincule a una base de datos, basada en la información solicitada por el usuario. La propuesta será llevada a cabo en el comercio DeporBe, situado en la localidad de Monte Cristo. El mismo se dedica a la comercialización de indumentaria, calzado y accesorios deportivos, y se encuentra bajo la necesidad de mantener una gestión organizada de los datos concernientes a productos, clientes, proveedores, entre otros, mediante una aplicación accesible y eficiente que le permita el manejo de la información. 
 
 ## Los colaboradores son:
 ### Dellarossa, Nidia 
