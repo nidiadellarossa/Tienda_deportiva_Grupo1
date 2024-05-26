@@ -16,6 +16,7 @@ URL: https://github.com/danimore05
 DNI: 27869809
 email: mauropicatto@gmail.com
 URL: https://github.com/mpicatto
+ejercicios: https://github.com/mpicatto/TSCDIA_PROGRAMADOR_EJERCICIOS
 
 ### Lamas, Liliana Elizabet 
 DNI: 16790184
