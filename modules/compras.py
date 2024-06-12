@@ -1,4 +1,5 @@
 import datetime
+from coneccionBD import GestionBD
 
 class Compras():
     def __init__(self):
@@ -6,7 +7,7 @@ class Compras():
         self.productos = []
         self.tipo_pago = None
         self.productos = []
-    
+        self.dbmanager = GestionBD() 
 
     def nueva_compra(self):
         '''

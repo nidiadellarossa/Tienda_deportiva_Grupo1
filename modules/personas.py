@@ -1,4 +1,4 @@
-
+from coneccionBD import GestionBD
 class Personas():
     def __init__(self):
         self.documento = None
@@ -31,7 +31,8 @@ class Personas():
             "fecha_nacimiento": "Fecha de nacimiento",
             "genero": "Género"
         }
-
+        self.dbmanager = GestionBD() 
+        
     def registrar_persona(self):
         '''Metodo para registrar los datos de un nuevo cliente / proveedor'''
 

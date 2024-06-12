@@ -1,3 +1,5 @@
+from coneccionBD import GestionBD
+
 class Stock():
     def __init__(self):
         self.codigo = None
@@ -6,6 +8,7 @@ class Stock():
         self.cantidad = None
         self.categoria = None
         self.proveedor = None
+        self.dbmanager = GestionBD() 
 
     def modificar_precio(self):
         '''
