@@ -94,6 +94,43 @@ class Personas():
         """Se pide confirmacio para guardar los datos en base de datos"""
         confirmacion = input("Confirma los datos (s/n): ")
         if confirmacion == "s":
+            self.dbmanager.connect()
+            query_persona = """
+            INSERT INTO tienda_ropa.persona (documento, tipo_documento, razon_social) 
+            VALUES (%s, %s, %s)
+            """
+            self.dbmanager.execute_query(query_persona, (self.documento, self.tipo_documento, self.razon_social))
+            
+            query_direccion_fiscal = """
+            INSERT INTO tienda_ropa.direccion_fiscal (id_persona, calle, numero, piso, departamento, id_localidad) 
+            VALUES (%s, %s, %s, %s, %s, %s)
+            """
+            self.dbmanager.execute_query(query_direccion_fiscal, (self.documento, self.calle, self.numero, self.piso, self.departamento, self.codigo_postal))
+
+            query_email = """
+            INSERT INTO tienda_ropa.email (id_persona, direccion) 
+            VALUES (%s, %s)
+            """
+
+            for email in self.email:
+                self.dbmanager.execute_query(query_email, (self.documento, email))
+
+            query_telefono = """
+            INSERT INTO tienda_ropa.telefono (id_persona, numero) 
+            VALUES (%s, %s)
+            """
+
+            for telefono in self.telefono:
+                self.dbmanager.execute_query(query_telefono, (self.documento, telefono))
+            
+            if is_persona_fisica == "s":
+                query_persona_fisica = """
+                INSERT INTO tienda_ropa.persona_fisica (id_persona, fecha_nacimiento, genero) 
+                VALUES (%s, %s, %s)
+                """
+                self.dbmanager.execute_query(query_persona_fisica, (self.documento, self.fecha_nacimiento, self.genero))
+
+            self.dbmanager.disconnect()
             print("Datos ingresados correctamente")            
         else:
             print("Datos no ingresados")
