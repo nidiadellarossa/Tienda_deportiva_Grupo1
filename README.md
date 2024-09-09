@@ -22,3 +22,5 @@ ejercicios: https://github.com/mpicatto/TSCDIA_PROGRAMADOR_EJERCICIOS
 DNI: 16790184
 email: lililamase@gmail.com 
 URL: https://github.com/llamas22
+
+En el repositorio encontramos algunas carpetas como "Evidencia1" donde estará lo referido a la primera evidencia del Módulo Innovacion en Gestión de Datos, en ella estan los documentos "Modulo innovacion en gestion de datos-evidencia1, el cual incluye lo solicitado en cuanto al tema elegido para el proyecto final, y otr documento llamado evidencia1-detalle de la base de datos, donde esta la consigna referida a la asignatura Base de Datos 2. Dentro de la carpeta "documentación" se encuentran los diagramas de la base de datos propuesta. El resto de la documentación del repositorio corresponde a las tareas solicitadas en el primer cuatrimestre del módulo programador.
